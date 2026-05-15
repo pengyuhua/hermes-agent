@@ -12,7 +12,7 @@ import fillerBgUrl from "@nous-research/ui/assets/filler-bg0.webp";
  * `ThemeProvider` can repaint the stack without remounting.
  *
  *   z-1   bg = `var(--background-base)`, mix-blend-mode: difference
- *   z-2   filler-bg jpeg, inverted, opacity 0.033, difference
+ *   z-2   bundled filler-bg WebP, inverted, opacity 0.033, difference
  *   z-99  warm top-left vignette (`var(--warm-glow)`), opacity 0.22, lighten
  *   z-101 noise grain (SVG, ~55% opacity × `--noise-opacity-mul`,
  *         color-dodge) — gated on GPU tier
